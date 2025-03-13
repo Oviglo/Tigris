@@ -5,4 +5,4 @@ controllers:
     type: attribute
 
 tigris_core:
-    resource: '@TigrisCoreBundle/config/routing.yaml'
+    resource: "@TigrisCoreBundle/config/routing.yaml"
