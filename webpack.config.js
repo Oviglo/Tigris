@@ -1,4 +1,5 @@
 const Encore = require('@symfony/webpack-encore');
+const webpack = require('webpack');
 
 // Manually configure the runtime environment if not already configured yet by the "encore" command.
 // It's useful when you use tools that rely on webpack.config.js file.
@@ -26,10 +27,18 @@ Encore
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
     .enableSassLoader()
-    .enableTypeScriptLoader(function(tsConfig) {
+    .enableTypeScriptLoader(function (tsConfig) {
         tsConfig.transpileOnly = true;
     })
     .enableVueLoader()
+
+    .addPlugin(
+        new webpack.DefinePlugin({
+            __VUE_OPTIONS_API__: true,
+            __VUE_PROD_DEVTOOLS__: !Encore.isProduction(),
+            __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
+        })
+    )
 
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app
@@ -74,6 +83,6 @@ Encore
 
     // uncomment if you're having problems with a jQuery plugin
     //.autoProvidejQuery()
-;
+    ;
 
 module.exports = Encore.getWebpackConfig();
