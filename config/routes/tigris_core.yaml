@@ -1,0 +1,2 @@
+tigris_core:
+    resource: "@TigrisCoreBundle/config/routing.yaml"

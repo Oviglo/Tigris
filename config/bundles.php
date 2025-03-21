@@ -13,4 +13,13 @@ return [
     Symfony\Bundle\WebProfilerBundle\WebProfilerBundle::class => ['dev' => true, 'test' => true],
     Knp\Bundle\MenuBundle\KnpMenuBundle::class => ['all' => true],
     Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle::class => ['all' => true],
+    FOS\JsRoutingBundle\FOSJsRoutingBundle::class => ['all' => true],
+    Symfony\UX\StimulusBundle\StimulusBundle::class => ['all' => true],
+    Symfony\UX\Turbo\TurboBundle::class => ['all' => true],
+    Symfony\UX\Vue\VueBundle::class => ['all' => true],
+    Symfony\Bundle\MonologBundle\MonologBundle::class => ['all' => true],
+    Symfony\UX\Translator\UxTranslatorBundle::class => ['all' => true],
+    Bazinga\Bundle\JsTranslationBundle\BazingaJsTranslationBundle::class => ['all' => true],
+    Symfony\Bundle\DebugBundle\DebugBundle::class => ['dev' => true],
+    Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
 ];

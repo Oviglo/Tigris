@@ -1,4 +1,5 @@
 const Encore = require('@symfony/webpack-encore');
+const FosRouting = require('./vendor/friendsofsymfony/jsrouting-bundle/Resources/webpack/FosRouting');
 const webpack = require('webpack');
 
 // Manually configure the runtime environment if not already configured yet by the "encore" command.
@@ -26,6 +27,9 @@ Encore
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
+
+    // enables the Symfony UX Stimulus bridge (used in assets/bootstrap.js)
+    .enableStimulusBridge('./assets/controllers.json')
     .enableSassLoader()
     .enableTypeScriptLoader(function (tsConfig) {
         tsConfig.transpileOnly = true;
@@ -39,6 +43,7 @@ Encore
             __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: false,
         })
     )
+    .addPlugin(new FosRouting())
 
     // will require an extra script tag for runtime.js
     // but, you probably want this, unless you're building a single-page app

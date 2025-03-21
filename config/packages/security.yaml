@@ -5,7 +5,7 @@ security:
     # https://symfony.com/doc/current/security.html#loading-the-user-the-user-provider
 
     role_hierarchy:
-        ROLE_ADMIN:       [ROLE_USER, ROLE_FORUM_ADMIN]
+        ROLE_ADMIN:       [ROLE_USER]
         ROLE_SUPER_ADMIN: ROLE_ADMIN
         
     providers:

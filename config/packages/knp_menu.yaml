@@ -1,0 +1,3 @@
+knp_menu:
+    twig:
+        template: '@TigrisCore/menu/knp_menu_base.html.twig'
