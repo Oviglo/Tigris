@@ -1,0 +1,7 @@
+tigris_core:
+  wording:
+    home:
+      - name: main title
+        type: text
+        default: Bienvenue sur Tigris
+        description: Titre de la page d'accueil
