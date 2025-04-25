@@ -1,0 +1,2 @@
+tigris_content:
+    resource: "@TigrisContentBundle/config/routing.yaml"

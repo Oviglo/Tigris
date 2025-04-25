@@ -1,0 +1,4 @@
+tigris_content:
+  page:
+    templates:
+      - name: homepage
