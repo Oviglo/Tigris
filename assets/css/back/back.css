@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@import "@awesome.me/kit-da05230ba8/icons/css/fontawesome.css";
+
+@import "@awesome.me/kit-da05230ba8/icons/css/light.css";
+/*
+@import "@fortawesome/fontawesome-pro/css/fontawesome.css";
+@import "@fortawesome/fontawesome-pro/css/solid.css";
+*/
+@import '../../../vendor/tigris/core-bundle/assets/css/back/back.css';
+@import '../../../vendor/tigris/content-bundle/assets/css/back/back.css';
+
+@plugin "daisyui" {
+    themes: corporate --default;
+};

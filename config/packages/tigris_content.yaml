@@ -2,3 +2,8 @@ tigris_content:
   page:
     templates:
       - name: homepage
+      - name: content
+
+  menus:
+    main:
+      name: main_menu
