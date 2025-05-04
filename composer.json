@@ -13,6 +13,7 @@
         "symfony/web-profiler-bundle": "7.2.*",
         "symfony/var-dumper": "7.2.*",
         "symfony/maker-bundle": "^1.62",
+        "tigris/maker-bundle": "dev-dev",
         "phpunit/phpunit": "^11.5.0",
         "symfony/browser-kit": "7.2.*",
         "symfony/css-selector": "7.2.*",
@@ -65,6 +66,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/Oviglo/Tigris-ContentBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Oviglo/Tigris-MakerBundle.git"
         }
     ],
     "config": {
