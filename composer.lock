@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "api-platform/core",
-            "version": "v4.1.7",
+            "version": "v4.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/api-platform/core.git",
-                "reference": "83d005a2b355bbac2d90eb3a8fb3ca5152fb9284"
+                "reference": "4ddce1f534a8b5cee198e593b456664fe4c04bab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/api-platform/core/zipball/83d005a2b355bbac2d90eb3a8fb3ca5152fb9284",
-                "reference": "83d005a2b355bbac2d90eb3a8fb3ca5152fb9284",
+                "url": "https://api.github.com/repos/api-platform/core/zipball/4ddce1f534a8b5cee198e593b456664fe4c04bab",
+                "reference": "4ddce1f534a8b5cee198e593b456664fe4c04bab",
                 "shasum": ""
             },
             "require": {
@@ -102,12 +102,12 @@
                 "phpstan/phpstan-doctrine": "^1.0",
                 "phpstan/phpstan-phpunit": "^1.0",
                 "phpstan/phpstan-symfony": "^1.0",
-                "phpunit/phpunit": "^11.2",
+                "phpunit/phpunit": "11.5.x-dev",
                 "psr/log": "^1.0 || ^2.0 || ^3.0",
                 "ramsey/uuid": "^4.7",
                 "ramsey/uuid-doctrine": "^2.0",
                 "soyuka/contexts": "^3.3.10",
-                "soyuka/pmu": "^0.0.15",
+                "soyuka/pmu": "^0.1.0",
                 "soyuka/stubs-mongodb": "^1.0",
                 "symfony/asset": "^6.4 || ^7.0",
                 "symfony/browser-kit": "^6.4 || ^7.0",
@@ -216,9 +216,9 @@
             ],
             "support": {
                 "issues": "https://github.com/api-platform/core/issues",
-                "source": "https://github.com/api-platform/core/tree/v4.1.7"
+                "source": "https://github.com/api-platform/core/tree/v4.1.8"
             },
-            "time": "2025-04-11T09:53:03+00:00"
+            "time": "2025-05-09T06:04:56+00:00"
         },
         {
             "name": "behat/transliterator",
@@ -267,6 +267,7 @@
                 "issues": "https://github.com/Behat/Transliterator/issues",
                 "source": "https://github.com/Behat/Transliterator/tree/v1.5.0"
             },
+            "abandoned": true,
             "time": "2022-03-30T09:27:43+00:00"
         },
         {
@@ -7903,12 +7904,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Oviglo/Tigris-ContentBundle.git",
-                "reference": "70e74fcafd31824e96a2576e2b939bd20743a0c2"
+                "reference": "1db4ac1c80fdbbcf2d853d2e15035d88b66a3347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Oviglo/Tigris-ContentBundle/zipball/70e74fcafd31824e96a2576e2b939bd20743a0c2",
-                "reference": "70e74fcafd31824e96a2576e2b939bd20743a0c2",
+                "url": "https://api.github.com/repos/Oviglo/Tigris-ContentBundle/zipball/1db4ac1c80fdbbcf2d853d2e15035d88b66a3347",
+                "reference": "1db4ac1c80fdbbcf2d853d2e15035d88b66a3347",
                 "shasum": ""
             },
             "require": {
@@ -7956,7 +7957,7 @@
                 "source": "https://github.com/Oviglo/Tigris-ContentBundle/tree/dev",
                 "issues": "https://github.com/Oviglo/Tigris-ContentBundle/issues"
             },
-            "time": "2025-05-07T10:59:58+00:00"
+            "time": "2025-05-09T16:03:37+00:00"
         },
         {
             "name": "tigris/core-bundle",
@@ -7964,12 +7965,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Oviglo/Tigris-CoreBundle.git",
-                "reference": "5609cf75b02823f02342ac883a5abdbe6b10d3e3"
+                "reference": "cc87a311872650ba3d17641bac5f12223418515d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Oviglo/Tigris-CoreBundle/zipball/5609cf75b02823f02342ac883a5abdbe6b10d3e3",
-                "reference": "5609cf75b02823f02342ac883a5abdbe6b10d3e3",
+                "url": "https://api.github.com/repos/Oviglo/Tigris-CoreBundle/zipball/cc87a311872650ba3d17641bac5f12223418515d",
+                "reference": "cc87a311872650ba3d17641bac5f12223418515d",
                 "shasum": ""
             },
             "require": {
@@ -8048,7 +8049,7 @@
                 "source": "https://github.com/Oviglo/Tigris-CoreBundle/tree/dev",
                 "issues": "https://github.com/Oviglo/Tigris-CoreBundle/issues"
             },
-            "time": "2025-05-07T11:00:50+00:00"
+            "time": "2025-05-09T16:03:02+00:00"
         },
         {
             "name": "twig/extra-bundle",
@@ -12168,5 +12169,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

@@ -1,0 +1,8 @@
+{% extends "@TigrisContent/element/element.html.twig" %}
+
+{% block content %}
+
+<div class="container mx-auto px-4">
+    {% include "@TigrisCore/component/_editorjs_parser.html.twig" with { 'data': entity.getJson('content') } %}
+</div>
+{% endblock %}
