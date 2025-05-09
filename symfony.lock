@@ -412,6 +412,12 @@
             "./%ASSETS_DIR%/back.js"
         ]
     },
+    "tigris/dev-bundle": {
+        "version": "dev-dev"
+    },
+    "tigris/maker-bundle": {
+        "version": "dev-dev"
+    },
     "twig/extra-bundle": {
         "version": "v3.20.0"
     },

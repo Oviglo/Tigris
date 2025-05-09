@@ -1,4 +1,8 @@
 @import "tailwindcss";
+@import "@awesome.me/kit-da05230ba8/icons/css/fontawesome.css";
+
+@import "@awesome.me/kit-da05230ba8/icons/css/brands.css";
+@import "@awesome.me/kit-da05230ba8/icons/css/light.css";
 
 @plugin "daisyui" {
     themes: dark --default;

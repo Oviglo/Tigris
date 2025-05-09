@@ -11,5 +11,5 @@
 @import '../../../vendor/tigris/content-bundle/assets/css/back/back.css';
 
 @plugin "daisyui" {
-    themes: corporate --default;
+    themes: light --default;
 };

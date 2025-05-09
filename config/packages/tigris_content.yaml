@@ -7,3 +7,11 @@ tigris_content:
   menus:
     main:
       name: main_menu
+
+  elements:
+    article:
+      fields:
+        subTitle:
+          type: text
+        content:
+          type: html
