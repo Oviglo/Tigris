@@ -1,0 +1,9 @@
+{% extends 'front/layout.html.twig' %}
+
+{% block content %}
+<div class="container mx-auto px-4 py-4">
+    {{ form_start(form, {attr: { novalidate: true} }) }}
+        {{ form_widget(form) }}
+    {{ form_end(form) }}
+</div>
+{% endblock %}

@@ -10,7 +10,7 @@
         </div>
 
         <div class="navbar-center">
-            {{ knp_menu_render('front_main') }}
+            {{ knp_menu_render('content', {'style':'horizontal'}) }}
         </div>
 
         <div class="navbar-end flex gap-2">
@@ -24,8 +24,10 @@
     </nav>
 </header>
 <main class="flex-1">
-    {% block content %}
-    {% endblock %}
+    <turbo-frame>
+        {% block content %}
+        {% endblock %}
+    </turbo-frame>
 </main>
 
 <footer class="text-base-content" id="main-footer">

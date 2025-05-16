@@ -4,6 +4,8 @@
 @import "@awesome.me/kit-da05230ba8/icons/css/brands.css";
 @import "@awesome.me/kit-da05230ba8/icons/css/light.css";
 
+@import '../../../vendor/tigris/core-bundle/assets/css/front/front.css';
+
 @plugin "daisyui" {
     themes: dark --default;
 };

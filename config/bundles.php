@@ -24,5 +24,6 @@ return [
     Twig\Extra\TwigExtraBundle\TwigExtraBundle::class => ['all' => true],
     SymfonyCasts\Bundle\ResetPassword\SymfonyCastsResetPasswordBundle::class => ['all' => true],
     Tigris\ContentBundle\TigrisContentBundle::class => ['all' => true],
+    Tigris\ContactBundle\TigrisContactBundle::class => ['all' => true],
     Tigris\DevBundle\TigrisDevBundle::class => ['dev' => true, 'test' => true],
 ];

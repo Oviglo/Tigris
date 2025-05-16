@@ -1,4 +1,4 @@
-{% extends "@TigrisContent/page/page.html.twig" %}
+{% extends "@TigrisContent/front/page/page.html.twig" %}
 
 {% block content %}
 <section id="hero">
@@ -25,6 +25,12 @@
                 </a>
             </div>
         </div>
+    </div>
+</section>
+
+<section>
+    <div class="container">
+        {% include '@TigrisContact/front/_widget.html.twig' %}
     </div>
 </section>
 {% endblock %}

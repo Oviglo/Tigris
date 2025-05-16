@@ -1,0 +1,2 @@
+tigris_contact:
+    resource: "@TigrisContactBundle/config/routing.yaml"

@@ -1,0 +1,16 @@
+{% extends "@TigrisContent/front/element/list.html.twig" %}
+
+{% block content %}
+
+{% for element in elements %}
+    <div class="container mx-auto px-4 py-4">
+        {% include "@TigrisCore/component/_editorjs_parser.html.twig" with { 'data': element.getJson('content') } %}
+    </div>
+{% endfor %}
+
+{% if elements is empty %}
+    <div class="container mx-auto px-4 py-4">
+        <p>{{ ('content.element.' ~ type ~ '.empty')|trans }}</p>
+    </div>
+{% endif %}
+{% endblock %}

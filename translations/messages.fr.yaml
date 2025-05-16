@@ -1,0 +1,9 @@
+content:
+  element:
+    article:
+      list: Liste des articles
+      elements: Articles
+      menu: Articles
+  menu:
+    main: Principal
+    footer: Pied de page

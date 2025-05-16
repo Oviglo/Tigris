@@ -6,7 +6,8 @@
     "require": {
         "symfony/flex": "^2",
         "tigris/core-bundle": "dev-dev",
-        "tigris/content-bundle": "dev-dev"
+        "tigris/content-bundle": "dev-dev",
+        "tigris/contact-bundle": "dev-dev"
     },
     "require-dev": {
         "symfony/stopwatch": "7.2.*",
@@ -70,6 +71,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/Oviglo/Tigris-ContentBundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Oviglo/Tigris-ContactBundle.git"
         }
     ],
     "config": {

@@ -7,6 +7,8 @@ tigris_content:
   menus:
     main:
       name: main_menu
+    footer:
+      name: footer_menu
 
   elements:
     article:
