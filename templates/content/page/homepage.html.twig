@@ -30,7 +30,11 @@
 
 <section>
     <div class="container">
-        {% include '@TigrisContact/front/_widget.html.twig' %}
+        <turbo-frame id="contact-form">
+            {% embed '@TigrisCore/component/_form.html.twig' with { form: contact_form() } %}
+            {% endembed %}
+        </turbo-frame>
+        
     </div>
 </section>
 {% endblock %}

@@ -5,6 +5,7 @@
 @import "@awesome.me/kit-da05230ba8/icons/css/light.css";
 
 @import '../../../vendor/tigris/core-bundle/assets/css/front/front.css';
+@import '../../../vendor/tigris/contact-bundle/assets/css/front/front.css';
 
 @plugin "daisyui" {
     themes: dark --default;
