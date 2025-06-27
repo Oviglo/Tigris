@@ -65,8 +65,11 @@
             "url": "https://github.com/Oviglo/Tigris-DevBundle.git"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/Oviglo/Tigris-CoreBundle.git"
+            "type": "path",
+            "url": "../TigrisBundles/core-bundle",
+            "options": {
+                "symlink": true
+            }
         },
         {
             "type": "vcs",
