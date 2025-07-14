@@ -1,2 +1,2 @@
-tigris_content:
-    resource: "@TigrisContentBundle/config/routing.yaml"
+#tigris_content:
+#    resource: "@TigrisContentBundle/config/routing.yaml"

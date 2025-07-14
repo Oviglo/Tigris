@@ -1,19 +1,19 @@
-tigris_content:
-  page:
-    templates:
-      - name: homepage
-      - name: content
-
-  menus:
-    main:
-      name: main_menu
-    footer:
-      name: footer_menu
-
-  elements:
-    article:
-      fields:
-        subTitle:
-          type: text
-        content:
-          type: html
+#tigris_content:
+#  page:
+#    templates:
+#      - name: homepage
+#      - name: content
+#
+#  menus:
+#    main:
+#      name: main_menu
+#    footer:
+#      name: footer_menu
+#
+#  elements:
+#    article:
+#      fields:
+#        subTitle:
+#          type: text
+#        content:
+#          type: html
